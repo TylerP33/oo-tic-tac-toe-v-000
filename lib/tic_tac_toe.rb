@@ -54,7 +54,7 @@ if valid_move?(index)
   end
 end
 
-   def current_player
+   def current_player(index)
     turn_count % 2 == 0 ? "X" : "O"
   end
 
