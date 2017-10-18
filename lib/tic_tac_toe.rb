@@ -125,6 +125,7 @@ end
 
 def play
   until over?
+    current_player
      turn
    end
      if won?
