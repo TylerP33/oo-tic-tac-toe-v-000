@@ -45,7 +45,7 @@ def display_board
 
 if valid_move?(index)
     current_player
-    move(index)
+    move(index, current_player = "X")
     display_board
   else
     turn
