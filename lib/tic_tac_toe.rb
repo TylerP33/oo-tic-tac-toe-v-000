@@ -39,6 +39,7 @@ def display_board
   def turn
   puts "Please enter 1-9:"
   user_input = gets.chomp
+  current_user
   index = input_to_index(user_input)
 
 
