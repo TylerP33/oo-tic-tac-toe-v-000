@@ -44,8 +44,8 @@ def display_board
 
 
 if valid_move?(index)
-    current_player == "X" || "O"
-    move(index, current_player == "X" || "O")
+    current_player = "X" || "O"
+    move(index, current_player)
     display_board
   else
     turn
