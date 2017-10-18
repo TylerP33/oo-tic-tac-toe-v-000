@@ -43,7 +43,7 @@ def display_board
 
 
 if valid_move?(index)
-    current_player == 0 ? "X" : "O"
+    current_player
     move(index, current_player)
     display_board
   else
